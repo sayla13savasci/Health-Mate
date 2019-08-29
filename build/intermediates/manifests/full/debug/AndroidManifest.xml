@@ -46,7 +46,7 @@
 
         <meta-data
             android:name="com.samsung.android.health.permission.read"
-            android:value="com.samsung.health.step_count;com.samsung.health.heart_rate;com.samsung.health.water_intake;com.samsung.health.blood_glucose;" />
+            android:value="com.samsung.health.blood_glucose;com.samsung.health.step_count;com.samsung.health.heart_rate;com.samsung.health.water_intake;com.samsung.health.weight;" />
     </application>
 
 </manifest>

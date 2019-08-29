@@ -113,9 +113,9 @@ ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:34:17-77
 	android:name
 		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:34:27-74
 meta-data#com.samsung.android.health.permission.read
-ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:38:9-40:157
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:38:9-40:183
 	android:value
-		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:40:13-154
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:40:13-180
 	android:name
 		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:39:13-70
 uses-permission#android.permission.INTERNET
