@@ -32,8 +32,56 @@
     <string name="unit_bmi">Under Weight</string>
     <string name="water_section">Water Intake</string>
     <string name="you_drink">You Drink</string>
-    <string name="unit_water">Glass(s) of Water</string>
+    <string name="unit_water">ML Water</string>
     <string name="blood_pressure_section">Blood Pressure</string>
     <string name="your_blood_pressure">Your Blood Pressure</string>
     <string name="unit_blood_pressure">mmHG</string>
+
+    <string name="blood_glucose_section">Blood Glucose</string>
+    <string name="your_blood_glucose">Your Blood Glucose</string>
+    <string name="unit_blood_glucose">mmol/L</string>
+
+    <string name="weight">Weight</string>
+    <string name="your_weight">Your Weight</string>
+    <string name="unit_weight">KG</string>
+
+
+    <!-- details information starts-->
+    <string name="step_text_one">Information about walk</string>
+    <string name="does_not_walk">You does not walk for two days</string>
+    <string name="step_needed">10,000 steps/day is a reasonable target for healthy adults.</string>
+    <string name="suggestion_step">Suggestion for step:</string>
+    <string name="benifites_step">Benifites of walk:</string>
+    <string name="benifites_step_details">
+        1.	increased cardiovascular and pulmonary (heart and lung) fitness "\n"
+        2.	reduced risk of heart disease and stroke  "\n"
+        3.	stronger bones and improved balance  "\n"
+        4.	Reduced body fat.
+    </string>
+
+    <!-- heart rate starts-->
+    <string name="heart_text_one">Information about heart rate</string>
+    <string name="reminder">Reminder</string>
+
+    <string name="does_no_measure_heart">You didn't measure heart rate for last 2 hours</string>
+    <string name="suggestion_heartrate_details">
+        The normal resting heart rate for adults over the age of 10 years, including older adults,is between 60 and 100 beats per minute."/n"
+        The American Heart Association (AHA) states that the maximum heart rate during exercise should be roughly equal to 220 bpm minus the age of the person.
+
+    </string>
+    <string name="suggestion_heartrate">Suggestion:</string>
+    <string name="causes_of_heartrate">Causes of heart rate</string>
+    <string name="causes_of_heartrate_details">
+        a reaction to certain medications."\n"
+        consuming too much alcohol."\n"
+        consumption of cocaine and some other recreational drugs."\n"
+        hypertension. "\n"
+        certain lung diseases
+    </string>
+
+    <!-- water intake starts-->
+    <string name="water_text_one">Information about water intake</string>
+    <string name="suggestion_waterintake">Suggestion:</string>
+    <string name="suggestion_waterintake_details">Suggestion:</string>
+
 </resources>

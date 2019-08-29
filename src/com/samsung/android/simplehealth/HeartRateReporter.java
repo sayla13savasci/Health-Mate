@@ -43,7 +43,7 @@ public class HeartRateReporter {
 
     public void start(HeartRateObserver listener) {
         mHeartRateObserver = listener;
-        // Register an observer to listen changes of step count and get today step count
+        // Register an observer to listen changes of heart rate count and get today heart rate
         HealthDataObserver.addObserver(mStore, HealthConstants.HeartRate.HEALTH_DATA_TYPE, mObserver);
         readTodayHeartRate();
     }
@@ -99,7 +99,7 @@ public class HeartRateReporter {
 
     private final HealthDataObserver mObserver = new HealthDataObserver(null) {
 
-        // Update the step count when a change event is received
+        // Update the heart rate when a change event is received
         @Override
         public void onChange(String dataTypeName) {
             Log.d(MainActivity.APP_TAG, "Observer receives a data changed event");

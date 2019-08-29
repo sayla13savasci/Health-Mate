@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- details for water intake starts-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/GhostWhite"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:weightSum="6"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight=".5"
+                        android:src="@drawable/info"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="5.5"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/Black"
+                        android:text="@string/water_text_one"
+                        android:textSize="20sp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--underline starts-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingRight="10dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="top"
+
+                    android:background="@color/colorPrimary" />
+            </LinearLayout>
+            <!--underline stops-->
+
+            <!-- normal text starts-->
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/reminder"
+                        android:textColor="@color/Red"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        />
+                    <!--<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/does_no_measure_heart"
+                        android:textColor="@color/Black"
+                        android:textSize="20sp"
+                        />-->
+                </LinearLayout>
+
+                <!-- suggestion for steps-->
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/Black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/suggestion_waterintake"
+                        android:textSize="18sp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/Black"
+                        android:text="@string/suggestion_waterintake_details"
+                        android:textSize="18sp"
+                        />
+
+                </LinearLayout>
+
+                <!-- Benifites of steps-->
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="@color/Black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/causes_of_heartrate"
+                        android:textSize="18sp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/Black"
+                        android:layout_height="match_parent"
+                        android:text="@string/causes_of_heartrate_details"
+                        android:textSize="18sp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <!-- normal text ends-->
+        </LinearLayout>
+        <!-- details for step count stops-->
+    </LinearLayout>
+
+</ScrollView>

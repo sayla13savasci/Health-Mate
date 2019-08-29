@@ -6,11 +6,26 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/heart"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.samsung.android.simplehealth.MainActivity"
+            android:name=".WeightDetails"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".GlucoseDetails"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".WaterIntakeDetails"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".HeartRateDetails"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".StepDetails"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -22,7 +37,7 @@
 
         <meta-data
             android:name="com.samsung.android.health.permission.read"
-            android:value="com.samsung.health.step_count;com.samsung.health.heart_rate" />
+            android:value="com.samsung.health.step_count;com.samsung.health.heart_rate;com.samsung.health.water_intake;com.samsung.health.blood_glucose;" />
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

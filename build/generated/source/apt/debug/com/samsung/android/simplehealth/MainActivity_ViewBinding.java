@@ -24,6 +24,9 @@ public class MainActivity_ViewBinding implements Unbinder {
 
     target.mStepCountTv = Utils.findRequiredViewAsType(source, R.id.stepCount, "field 'mStepCountTv'", TextView.class);
     target.mHeartRateCountTv = Utils.findRequiredViewAsType(source, R.id.heartRate, "field 'mHeartRateCountTv'", TextView.class);
+    target.mWaterIntakeCountTv = Utils.findRequiredViewAsType(source, R.id.waterIntake, "field 'mWaterIntakeCountTv'", TextView.class);
+    target.mBloodGlucoseTv = Utils.findRequiredViewAsType(source, R.id.bloodGlucose, "field 'mBloodGlucoseTv'", TextView.class);
+    target.mWeightTv = Utils.findRequiredViewAsType(source, R.id.weightTracker, "field 'mWeightTv'", TextView.class);
   }
 
   @Override
@@ -35,5 +38,8 @@ public class MainActivity_ViewBinding implements Unbinder {
 
     target.mStepCountTv = null;
     target.mHeartRateCountTv = null;
+    target.mWaterIntakeCountTv = null;
+    target.mBloodGlucoseTv = null;
+    target.mWeightTv = null;
   }
 }

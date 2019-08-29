@@ -1,84 +1,196 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:2:1-30:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sonnet\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\6cf8fad30b4e16efdff8e79bd0cf05b7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\Sonnet\.gradle\caches\transforms-1\files-1.1\butterknife-8.5.1.aar\02e1f7e1a3c05cc9ece369a803ee5a11\AndroidManifest.xml:2:1-7:12
-MERGED from [com.android.support:support-compat:25.1.0] C:\Users\Sonnet\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\307a95fbb45e129bb02be0fc52fc4a50\AndroidManifest.xml:17:1-27:12
-INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:2:1-30:12
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:2:1-45:12
+INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml:2:1-45:12
+INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml:2:1-45:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\3acbc4fdd856c6c0db71d821ac595def\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\butterknife-8.5.1.aar\e208bb2446fd83c8065de99bb77ce049\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\de71c9db88225b0c2417a3ba5555d1cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\25557f036bd4113af149695baa3a25c8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\360506e0c4d8f60879b04632d3e71b94\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\b15b742b20558c054a17859baab98a0f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\e6742e91c0e628a2430656cc433d5508\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\9fbc52cb5d42c55604421111f7987eba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\f0c20b5e36f7b0aaddd0b8ac5b7d8eda\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\2499463703d904bd6b2f91c8f9a74b03\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\de030edbce0ce9133bd17a9bd01dc13e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\602e2b3fce5ca05d00c2d2d273440fae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\4202dc7e9e67bea2d4765acea1d59172\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\c2482457d1351176f16d12ed90f88bf4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\6bdcdb287c414dd62c39a71e73f9fe6d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\323fb71111fe045029839ffd50479e14\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\65ff783e2fb32053a61d57eed3536ad6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\47b3184fc6bbd8f039123e6f61ab6398\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\75ec12443139fb074048b14d36606ae7\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\c1a14cd8a4be935e412ba4e9b3599dfb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0652d5e74c318c0263ec15198acce5cb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\542fa70e8fceb163cc24d0b51db5baa2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\667672cdcf8a4c9cdaa7e461ddbc0374\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\b21dce9beb9e3a8877a526536e66160e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\5a36a330017f23f57f762b9c0fd1896b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\d816f0d0e1004a011a771824307701fe\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\9b2a15163bb77003fd5fde8c65e65543\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d9d2136f01748c636bf596fe1d12023b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\eb330387f7ac184a10dd466745a9e2f6\AndroidManifest.xml:17:1-22:12
+INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml:2:1-45:12
+INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml:2:1-45:12
 	package
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:3:5-47
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:3:5-47
 	android:versionName
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
-		INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:5:5-30
+		INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml
+		INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:2:11-69
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
-		INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:4:5-28
+		INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml
+		INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml
 application
-ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:7:5-26:19
-MERGED from [com.android.support:support-compat:25.1.0] C:\Users\Sonnet\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\307a95fbb45e129bb02be0fc52fc4a50\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.1.0] C:\Users\Sonnet\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\307a95fbb45e129bb02be0fc52fc4a50\AndroidManifest.xml:25:5-20
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:7:5-41:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\25557f036bd4113af149695baa3a25c8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\25557f036bd4113af149695baa3a25c8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\47b3184fc6bbd8f039123e6f61ab6398\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\47b3184fc6bbd8f039123e6f61ab6398\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\75ec12443139fb074048b14d36606ae7\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\75ec12443139fb074048b14d36606ae7\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\47b3184fc6bbd8f039123e6f61ab6398\AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:10:9-41
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:10:9-41
 	android:icon
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:9:9-45
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:9:9-39
 	android:allowBackup
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:8:9-35
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:11:9-40
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:11:9-40
+activity#com.samsung.android.simplehealth.WeightDetails
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:12:9-14:54
+	android:theme
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:14:13-51
+	android:name
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:13:13-42
+activity#com.samsung.android.simplehealth.GlucoseDetails
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:15:9-17:54
+	android:theme
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:17:13-51
+	android:name
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:16:13-43
+activity#com.samsung.android.simplehealth.WaterIntakeDetails
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:18:9-20:54
+	android:theme
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:20:13-51
+	android:name
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:19:13-47
+activity#com.samsung.android.simplehealth.HeartRateDetails
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:21:9-23:54
+	android:theme
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:23:13-51
+	android:name
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:22:13-45
+activity#com.samsung.android.simplehealth.StepDetails
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:24:9-26:54
+	android:theme
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:26:13-51
+	android:name
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:25:13-40
 activity#com.samsung.android.simplehealth.MainActivity
-ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:12:9-21:20
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:27:9-36:20
 	android:screenOrientation
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:15:13-49
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:30:13-49
 	android:label
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:14:13-45
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:29:13-45
 	android:name
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:13:13-73
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:28:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:16:13-20:29
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:17:17-69
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:17:25-66
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:19:17-77
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:19:27-74
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:34:27-74
 meta-data#com.samsung.android.health.permission.read
-ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:23:9-25:91
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:38:9-40:157
 	android:value
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:25:13-88
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:40:13-154
 	android:name
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:24:13-70
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:39:13-70
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:28:5-67
+ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:43:5-67
 	android:name
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml:28:22-64
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml:43:22-64
 uses-sdk
-INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
-INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sonnet\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\6cf8fad30b4e16efdff8e79bd0cf05b7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sonnet\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\6cf8fad30b4e16efdff8e79bd0cf05b7\AndroidManifest.xml:20:5-44
-MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\Sonnet\.gradle\caches\transforms-1\files-1.1\butterknife-8.5.1.aar\02e1f7e1a3c05cc9ece369a803ee5a11\AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\Sonnet\.gradle\caches\transforms-1\files-1.1\butterknife-8.5.1.aar\02e1f7e1a3c05cc9ece369a803ee5a11\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-compat:25.1.0] C:\Users\Sonnet\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\307a95fbb45e129bb02be0fc52fc4a50\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.1.0] C:\Users\Sonnet\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\307a95fbb45e129bb02be0fc52fc4a50\AndroidManifest.xml:21:5-23:58
-INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
-INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:support-compat:25.1.0] C:\Users\Sonnet\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\307a95fbb45e129bb02be0fc52fc4a50\AndroidManifest.xml:23:9-55
+INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml
+INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\3acbc4fdd856c6c0db71d821ac595def\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\3acbc4fdd856c6c0db71d821ac595def\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\butterknife-8.5.1.aar\e208bb2446fd83c8065de99bb77ce049\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\butterknife-8.5.1.aar\e208bb2446fd83c8065de99bb77ce049\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\de71c9db88225b0c2417a3ba5555d1cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\de71c9db88225b0c2417a3ba5555d1cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\25557f036bd4113af149695baa3a25c8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\25557f036bd4113af149695baa3a25c8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\360506e0c4d8f60879b04632d3e71b94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\360506e0c4d8f60879b04632d3e71b94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\b15b742b20558c054a17859baab98a0f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\b15b742b20558c054a17859baab98a0f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\e6742e91c0e628a2430656cc433d5508\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\e6742e91c0e628a2430656cc433d5508\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\9fbc52cb5d42c55604421111f7987eba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\9fbc52cb5d42c55604421111f7987eba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\f0c20b5e36f7b0aaddd0b8ac5b7d8eda\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\f0c20b5e36f7b0aaddd0b8ac5b7d8eda\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\2499463703d904bd6b2f91c8f9a74b03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\2499463703d904bd6b2f91c8f9a74b03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\de030edbce0ce9133bd17a9bd01dc13e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\de030edbce0ce9133bd17a9bd01dc13e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\602e2b3fce5ca05d00c2d2d273440fae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\602e2b3fce5ca05d00c2d2d273440fae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\4202dc7e9e67bea2d4765acea1d59172\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\4202dc7e9e67bea2d4765acea1d59172\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\c2482457d1351176f16d12ed90f88bf4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\c2482457d1351176f16d12ed90f88bf4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\6bdcdb287c414dd62c39a71e73f9fe6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\6bdcdb287c414dd62c39a71e73f9fe6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\323fb71111fe045029839ffd50479e14\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\323fb71111fe045029839ffd50479e14\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\65ff783e2fb32053a61d57eed3536ad6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\65ff783e2fb32053a61d57eed3536ad6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\47b3184fc6bbd8f039123e6f61ab6398\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\47b3184fc6bbd8f039123e6f61ab6398\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\75ec12443139fb074048b14d36606ae7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\75ec12443139fb074048b14d36606ae7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\c1a14cd8a4be935e412ba4e9b3599dfb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\c1a14cd8a4be935e412ba4e9b3599dfb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0652d5e74c318c0263ec15198acce5cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\0652d5e74c318c0263ec15198acce5cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\542fa70e8fceb163cc24d0b51db5baa2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\542fa70e8fceb163cc24d0b51db5baa2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\667672cdcf8a4c9cdaa7e461ddbc0374\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\667672cdcf8a4c9cdaa7e461ddbc0374\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\b21dce9beb9e3a8877a526536e66160e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\b21dce9beb9e3a8877a526536e66160e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\5a36a330017f23f57f762b9c0fd1896b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\5a36a330017f23f57f762b9c0fd1896b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\d816f0d0e1004a011a771824307701fe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\d816f0d0e1004a011a771824307701fe\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\9b2a15163bb77003fd5fde8c65e65543\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\9b2a15163bb77003fd5fde8c65e65543\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d9d2136f01748c636bf596fe1d12023b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\d9d2136f01748c636bf596fe1d12023b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\eb330387f7ac184a10dd466745a9e2f6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Forbidden Soul\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\eb330387f7ac184a10dd466745a9e2f6\AndroidManifest.xml:20:5-44
+INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml
+INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
-		INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
+		INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml
+		INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
-		ADDED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
-		INJECTED from C:\Users\Sonnet\Documents\simplehealth\AndroidManifest.xml
+		INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml
+		ADDED from G:\Personal\Android\Health Mate\AndroidManifest.xml
+		INJECTED from G:\Personal\Android\Health Mate\AndroidManifest.xml

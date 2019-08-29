@@ -1,4 +1,0 @@
-#Tue Aug 27 01:40:41 BDT 2019
-base.0=C\:\\Users\\Sonnet\\Documents\\simplehealth\\build\\intermediates\\transforms\\dexMerger\\debug\\8
-path.0=classes.dex
-renamed.0=classes.dex

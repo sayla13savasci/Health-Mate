@@ -20,27 +20,29 @@ package com.samsung.android.simplehealth;
 
 import com.samsung.android.sdk.healthdata.HealthConnectionErrorResult;
 import com.samsung.android.sdk.healthdata.HealthConstants;
-import com.samsung.android.sdk.healthdata.HealthDataService;
 import com.samsung.android.sdk.healthdata.HealthDataStore;
 import com.samsung.android.sdk.healthdata.HealthPermissionManager;
 import com.samsung.android.sdk.healthdata.HealthPermissionManager.PermissionKey;
 import com.samsung.android.sdk.healthdata.HealthPermissionManager.PermissionType;
-import com.samsung.android.sdk.healthdata.HealthResultHolder;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
+import android.widget.Button;
 import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+
+import android.view.View.OnClickListener;
+import android.view.View;
 
 public class MainActivity extends Activity {
 
@@ -48,18 +50,85 @@ public class MainActivity extends Activity {
 
     @BindView(R.id.stepCount)
     TextView mStepCountTv;
+
     @BindView(R.id.heartRate)
     TextView mHeartRateCountTv;
+
+    @BindView(R.id.waterIntake)
+    TextView mWaterIntakeCountTv;
+
+    @BindView(R.id.bloodGlucose)
+    TextView mBloodGlucoseTv;
+
+    @BindView(R.id.weightTracker)
+    TextView mWeightTv;
 
     private HealthDataStore mStore;
     private StepCountReporter mReporter;
     private HeartRateReporter mHeartRateReporter;
+    private WaterIntake mWaterIntake;
+    private BloodGlucose mBloodGlucose;
+    private WeightTracker mWeightTracker;
+
+    Button stepDetails, heartRate, waterIntake, bloodGlucose, weight;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+
+        stepDetails = (Button) findViewById(R.id.stepDetails);
+        heartRate = (Button) findViewById(R.id.HRDetails);
+        waterIntake = (Button) findViewById(R.id.waterIntakeDetails);
+        bloodGlucose = (Button) findViewById(R.id.glucoseDetails);
+        weight = (Button) findViewById(R.id.weightDetails);
+
+        stepDetails.setOnClickListener(new OnClickListener() {
+            public void onClick(View arg0) {
+                // Start NewActivity.class
+                Intent myIntent = new Intent(MainActivity.this,
+                        StepDetails.class);
+                startActivity(myIntent);
+            }
+        });
+
+        heartRate.setOnClickListener(new OnClickListener() {
+            public void onClick(View arg0) {
+                // Start NewActivity.class
+                Intent myIntent = new Intent(MainActivity.this,
+                        HeartRateDetails.class);
+                startActivity(myIntent);
+            }
+        });
+
+        waterIntake.setOnClickListener(new OnClickListener() {
+            public void onClick(View arg0) {
+                // Start NewActivity.class
+                Intent myIntent = new Intent(MainActivity.this,
+                        WaterIntakeDetails.class);
+                startActivity(myIntent);
+            }
+        });
+
+        bloodGlucose.setOnClickListener(new OnClickListener() {
+            public void onClick(View arg0) {
+                // Start NewActivity.class
+                Intent myIntent = new Intent(MainActivity.this,
+                        GlucoseDetails.class);
+                startActivity(myIntent);
+            }
+        });
+
+        weight.setOnClickListener(new OnClickListener() {
+            public void onClick(View arg0) {
+                // Start NewActivity.class
+                Intent myIntent = new Intent(MainActivity.this,
+                        WeightDetails.class);
+                startActivity(myIntent);
+            }
+        });
+
 
         // Create a HealthDataStore instance and set its listener
         mStore = new HealthDataStore(this, mConnectionListener);
@@ -80,9 +149,16 @@ public class MainActivity extends Activity {
             Log.d(APP_TAG, "Health data service is connected.");
             mReporter = new StepCountReporter(mStore);
             mHeartRateReporter = new HeartRateReporter(mStore);
+            mWaterIntake = new WaterIntake(mStore);
+            mBloodGlucose = new BloodGlucose(mStore);
+            mWeightTracker = new WeightTracker(mStore);
+
             if (isPermissionAcquired()) {
                 mReporter.start(mStepCountObserver);
                 mHeartRateReporter.start(mHeartReportObserver);
+                mWaterIntake.start(mWaterIntakeObserver);
+                mBloodGlucose.start(mBloodGlucoseObserver);
+                mWeightTracker.start(mWeightObserver);
             } else {
                 requestPermission();
             }
@@ -158,14 +234,30 @@ public class MainActivity extends Activity {
     }
 
     private boolean isPermissionAcquired() {
+        // for this every time dialog comes
         Set<PermissionKey> mKeys = new HashSet<PermissionKey>();
         HealthPermissionManager pmsManager = new HealthPermissionManager(mStore);
-        mKeys.add(new PermissionKey(HealthConstants.StepCount.HEALTH_DATA_TYPE, PermissionType.READ));
-        mKeys.add(new PermissionKey(HealthConstants.HeartRate.HEALTH_DATA_TYPE, PermissionType.READ));
+        PermissionKey step = new PermissionKey(HealthConstants.StepCount.HEALTH_DATA_TYPE, PermissionType.READ);
+        PermissionKey heart = new PermissionKey(HealthConstants.HeartRate.HEALTH_DATA_TYPE, PermissionType.READ);
+        PermissionKey water = new PermissionKey(HealthConstants.WaterIntake.HEALTH_DATA_TYPE, PermissionType.READ);
+        PermissionKey glucose = new PermissionKey(HealthConstants.BloodGlucose.HEALTH_DATA_TYPE, PermissionType.READ);
+        PermissionKey weight = new PermissionKey(HealthConstants.Weight.HEALTH_DATA_TYPE, PermissionType.READ);
+
+        mKeys.add(step);
+        mKeys.add(heart);
+        mKeys.add(water);
+        mKeys.add(glucose);
+        mKeys.add(weight);
+
         try {
             // Check whether the permissions that this application needs are acquired
-            Map<PermissionKey, Boolean> resultMap = pmsManager.isPermissionAcquired(mKeys);
-            return resultMap.get(mKeys);
+            Map resultMap = pmsManager.isPermissionAcquired(mKeys);
+            if (resultMap.containsValue(Boolean.FALSE)) {
+                return Boolean.FALSE;
+            } else {
+                return Boolean.TRUE;
+            }
+
         } catch (Exception e) {
             Log.e(APP_TAG, "Permission request fails.", e);
         }
@@ -177,6 +269,9 @@ public class MainActivity extends Activity {
         HealthPermissionManager pmsManager = new HealthPermissionManager(mStore);
         mKeys.add(new PermissionKey(HealthConstants.StepCount.HEALTH_DATA_TYPE, PermissionType.READ));
         mKeys.add(new PermissionKey(HealthConstants.HeartRate.HEALTH_DATA_TYPE, PermissionType.READ));
+        mKeys.add(new PermissionKey(HealthConstants.WaterIntake.HEALTH_DATA_TYPE, PermissionType.READ));
+        mKeys.add(new PermissionKey(HealthConstants.BloodGlucose.HEALTH_DATA_TYPE, PermissionType.READ));
+        mKeys.add(new PermissionKey(HealthConstants.Weight.HEALTH_DATA_TYPE, PermissionType.READ));
         try {
             // Show user permission UI for allowing user to change options
             pmsManager.requestPermissions(mKeys, MainActivity.this)
@@ -186,11 +281,18 @@ public class MainActivity extends Activity {
 
                         if (resultMap.containsValue(Boolean.FALSE)) {
                             updateStepCountView("");
+                            updateHeartRateView("");
+                            updateWaterIntakeView("");
+                            updateBloodGlucoseView("");
+                            updateWeightView("");
                             showPermissionAlarmDialog();
                         } else {
                             // Get the current step count and display it
                             mReporter.start(mStepCountObserver);
                             mHeartRateReporter.start(mHeartReportObserver);
+                            mWaterIntake.start(mWaterIntakeObserver);
+                            mBloodGlucose.start(mBloodGlucoseObserver);
+                            mWeightTracker.start(mWeightObserver);
                         }
                     });
         } catch (Exception e) {
@@ -203,9 +305,24 @@ public class MainActivity extends Activity {
         updateStepCountView(String.valueOf(count));
     };
 
-    private HeartRateReporter.HeartRateObserver mHeartReportObserver = count -> {
-        Log.d(APP_TAG, "HeartRate reported : " + count);
-        updateHeartRateView(String.valueOf(count));
+    private HeartRateReporter.HeartRateObserver mHeartReportObserver = heartRateCount -> {
+        Log.d(APP_TAG, "HeartRate reported : " + heartRateCount);
+        updateHeartRateView(String.valueOf(heartRateCount));
+    };
+
+    private WaterIntake.WaterIntakeObserver mWaterIntakeObserver = waterIntakeCount -> {
+        Log.d(APP_TAG, "Water Intake reported : " + waterIntakeCount);
+        updateWaterIntakeView(String.valueOf(waterIntakeCount));
+    };
+
+    private BloodGlucose.BloodGlucoseObserver mBloodGlucoseObserver = glucoseCount -> {
+        Log.d(APP_TAG, "Glucose reported : " + glucoseCount);
+        updateBloodGlucoseView(String.valueOf(glucoseCount));
+    };
+
+    private WeightTracker.WeightObserver mWeightObserver = weightCount -> {
+        Log.d(APP_TAG, "Weight reported : " + weightCount);
+        updateWeightView(String.valueOf(weightCount));
     };
 
 
@@ -215,6 +332,18 @@ public class MainActivity extends Activity {
 
     private void updateHeartRateView(final String count) {
         runOnUiThread(() -> mHeartRateCountTv.setText(count));
+    }
+
+    private void updateWaterIntakeView(final String count) {
+        runOnUiThread(() -> mWaterIntakeCountTv.setText(count));
+    }
+
+    private void updateBloodGlucoseView(final String count) {
+        runOnUiThread(() -> mBloodGlucoseTv.setText(count));
+    }
+
+    private void updateWeightView(final String count) {
+        runOnUiThread(() -> mWeightTv.setText(count));
     }
 
     @Override
